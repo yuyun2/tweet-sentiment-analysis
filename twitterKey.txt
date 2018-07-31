@@ -1,0 +1,9 @@
+Consumer Key (API Key)	PiRKqPn1qBCQBe138l0CPjWki
+Consumer Secret (API Secret)	lXANVuTMITKyiBbAfGUvCrjZWEmTx98DCJDmSNY7ngvQBGhrEb
+Access Token	913158413370105856-zAtUYkP4btlv8hFqIfsdJiTddMJhtGJ
+Access Token Secret	wtc2WmcelOeEk7BOmcZN8xRSB9sfA4r5u9RdpP1O0ol7v
+
+
+#consumer_key, consumer_secret, access_token, access_token_secret
+
+PiRKqPn1qBCQBe138l0CPjWki,lXANVuTMITKyiBbAfGUvCrjZWEmTx98DCJDmSNY7ngvQBGhrEb,913158413370105856-zAtUYkP4btlv8hFqIfsdJiTddMJhtGJ,wtc2WmcelOeEk7BOmcZN8xRSB9sfA4r5u9RdpP1O0ol7v

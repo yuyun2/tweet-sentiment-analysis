@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Users followed by {{name}}</title>
+    <style type="text/css">
+        a:link {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<h1 style="font-size:130%; font-family:Verdana, sans-serif;">Users followed by {{name}}</h1>
+
+<table>
+
+{% for friend in friends %}
+    <tr>
+        <td align=center width="80"><img src={{friend['image']}}></td>
+        <td style="font-size:70%; font-family:Verdana, sans-serif">
+            <a href="https://twitter.com/{{friend['screen_name']}}">{{friend['name']}}</a><br>
+            {{friend['followers']}} followers<br>
+            Since {{friend['created']}}
+        </td>
+    </tr>
+{% endfor %}
+
+
+</table>
+
+</body>
+</html>
+
+
